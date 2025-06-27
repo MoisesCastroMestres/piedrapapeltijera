@@ -46,13 +46,13 @@ optionImages.forEach((image, index) => {
       // Create an object with all possible outcomes
       let outcomes = {
         RR: "Empate",
-        RP: "La Cpu ha",
+        RP: "Has perdido",
         RS: "Has",
         PP: "Empate",
         PR: "Has",
-        PS: "La Cpu ha",
+        PS: "Has perdido",
         SS: "Empate",
-        SR: "La Cpu ha",
+        SR: "Has perdido",
         SP: "Has",
       };
 
