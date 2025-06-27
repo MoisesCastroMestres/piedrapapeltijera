@@ -47,20 +47,20 @@ optionImages.forEach((image, index) => {
       let outcomes = {
         RR: "Empate",
         RP: "Has perdido",
-        RS: "Has",
+        RS: "Has ganado",
         PP: "Empate",
-        PR: "Has",
+        PR: "Has ganado",
         PS: "Has perdido",
         SS: "Empate",
         SR: "Has perdido",
-        SP: "Has",
+        SP: "Has ganado",
       };
 
       // Look up the outcome value based on user and CPU options
       let outComeValue = outcomes[userValue + cpuValue];
 
       // Display the result
-      result.textContent = userValue === cpuValue ? "Empate" : `${outComeValue} Ganado!!`;
+      result.textContent = outComeValue;
     }, 2500);
   });
 });
